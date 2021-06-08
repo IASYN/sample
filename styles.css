@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Russo One', sans-serif;
+}
+header .box{
+    display: flex;
+    align-items: center;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .logos{
+    margin-left: 17px;
+}
+header .menu ul{
+    display: flex;
+    margin-left: 104px;
+    margin-right: 234px;
+}
+header .menu span{
+    color: orange;
+}
+header .menu li{
+    list-style: none;
+    font-size: 35px;
+    padding-right: 20px;
+    color: whitesmoke;
+}
+header .menu li:last-child{
+    padding-right: 0;
+}
+header .masang{
+    display: flex;
+    align-items: center;
+}
+section{
+    background: url("image/photo.png");
+}
+section .sec{
+    text-align: center;
+    padding-top: 418px;
+    padding-bottom: 300px;
+}
+section .sec h1{
+    font-size: 90px;
+    color: whitesmoke;
+}
+section .sec p{
+    color: whitesmoke;
+    font-size: 70px;
+}
+section .sec .line{
+    border-bottom: whitesmoke solid 3px;
+    width: 500px;
+    margin-left: 680px;
+}
+.one{
+    background: url("image/photo1.jpg");
+}
+.one .ones{
+    display: flex;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+}
+.one .ones h2{
+    color: whitesmoke;
+    margin-left: 650px;
+    font-size: 90px;
+}
+.two{
+    background: black;
+}
+.two .obsh1{
+    display: flex;
+}
+.two .obsh1 .left{
+    width: 45%;
+}
+.two .obsh1 .right{
+    width: 55%;
+}
+.two .obsh1 .left h2{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 250px;
+    padding-left: 30px;
+}
+.two .obsh1 .left p{
+    color: whitesmoke;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+.two .obsh1 .left .zz{
+    font-size: 30px;
+    color: gray;
+}
+.two .obsh2{
+    display: flex;
+}
+.two .obsh2 .left{
+    width: 55%;
+}
+.two .obsh2 .right1{
+    width: 45px;
+}
+.two .obsh2 .right1 h3{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 230px;
+}
+.two .obsh2 .right1 p{
+    color: whitesmoke;
+    width: 600px;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.two .obsh2 .right1 .zz{
+    font-size: 30px;
+    color: gray;
+}
+.free{
+    background: url("image/photo4.png");
+}
+.free .ones{
+    display: flex;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+}
+.free .ones h2{
+    color: whitesmoke;
+    margin-left: 650px;
+    font-size: 90px;
+}
+.for{
+    background: black;
+}
+.for .obsh3{
+    display: flex;
+}
+.for .obsh3 .left2{
+    width: 45%;
+}
+.for .obsh3 .right2{
+    width: 55%;
+}
+.for .obsh3 .left2 h4{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 250px;
+    padding-left: 30px;
+}
+.for .obsh3 .left2 p{
+    color: whitesmoke;
+    font-size: 60px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+.for .obsh4{
+    display: flex;
+}
+.for .obsh4 .left3{
+    width: 55%;
+}
+.for .obsh4 .right3{
+    width: 45px;
+}
+.for .obsh4 .right3 h4{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 200px;
+}
+.for .obsh4 .right3 p{
+    color: whitesmoke;
+    width: 600px;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.five{
+    background: url("image/photo7.png");
+}
+.five .ones{
+    display: flex;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+}
+.five .ones h2{
+    color: whitesmoke;
+    margin-left: 650px;
+    font-size: 90px;
+}
+.six{
+    background: black;
+}
+.six .obsh5{
+    display: flex;
+}
+.six .obsh5 .left4{
+    width: 45%;
+}
+.six .obsh5 .right4{
+    width: 55%;
+}
+.six .obsh5 .left4 h4{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.six .obsh5 .left4 p{
+    color: whitesmoke;
+    font-size: 60px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+}
+.seven{
+    background: url("image/photo9.png");
+}
+.seven .ones{
+    display: flex;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+}
+.seven .ones h2{
+    color: whitesmoke;
+    margin-left: 720px;
+    font-size: 90px;
+}
+.eight{
+    background: black;
+}
+.eight .obsh6{
+    display: flex;
+    padding-top: 30px;
+}
+.eight .obsh6 .left5{
+    width: 45%;
+}
+.eight .obsh6 .right5{
+    width: 55%;
+}
+.eight .obsh6 .left5 h4{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 250px;
+    padding-left: 30px;
+}
+.eight .obsh6 .left5 p{
+    color: whitesmoke;
+    font-size: 60px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+.eight .obsh7{
+    display: flex;
+}
+.eight .obsh7 .left6{
+    width: 55%;
+}
+.eight .obsh7 .right6{
+    width: 45px;
+}
+.eight .obsh7 .right6 h4{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 200px;
+}
+.eight .obsh7 .right6 p{
+    color: whitesmoke;
+    width: 600px;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.nine{
+    background: url("image/photo12.png");
+}
+.nine .ones{
+    display: flex;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+}
+.nine .ones h2{
+    color: whitesmoke;
+    margin-left: 720px;
+    font-size: 90px;
+}
+.ten{
+    background: black;
+}
+.ten .obsh8{
+    display: flex;
+}
+.ten .obsh8 .left7{
+    width: 45%;
+}
+.ten .obsh8 .right7{
+    width: 55%;
+}
+.ten .obsh8 .left7 h4{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 360px;
+    padding-left: 100px;
+}
+.ten .obsh8 .left7 p{
+    color: whitesmoke;
+    font-size: 60px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+}
+.eleven{
+    background: url("image/photo14.png");
+}
+.eleven .ones{
+    display: flex;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+}
+.eleven .ones h2{
+    color: whitesmoke;
+    margin-left: 560px;
+    font-size: 90px;
+}
+.twenty{
+    background: black;
+}
+.twenty .obsh10{
+    display: flex;
+    padding-top: 30px;
+}
+.twenty .obsh10 .left11{
+    width: 45%;
+}
+.twenty .obsh10 .right11{
+    width: 55%;
+}
+.twenty .obsh10 .left11 h4{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 250px;
+    padding-left: 70px;
+}
+.twenty .obsh10 .left11 p{
+    color: whitesmoke;
+    font-size: 60px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+}
+.twenty .obsh12{
+    display: flex;
+}
+.twenty .obsh12 .left13{
+    width: 55%;
+}
+.twenty .obsh12 .right13{
+    width: 45px;
+}
+.twenty .obsh12 .right13 h4{
+    color: whitesmoke;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 200px;
+}
+.twenty .obsh12 .right13 p{
+    color: whitesmoke;
+    width: 600px;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.tre{
+    background: url("image/photo17.png");
+}
+.tre .ones{
+    display: flex;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+}
+.tre .ones h2{
+    color: whitesmoke;
+    margin-left: 400px;
+    font-size: 90px;
+}
+.xxx{
+    background: black;
+    color: whitesmoke;
+}
+.xxx .boxx .vvv{
+    width: 50%;
+}
+.xxx .boxx .bbb{
+    width: 50%;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+footer .box{
+    display: flex;
+    align-items: center;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer .logos{
+
+}
+footer .menu ul{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+footer .menu span{
+    color: orange;
+}
+footer .menu li{
+    list-style: none;
+    font-size: 35px;
+    padding-right: 20px;
+    color: whitesmoke;
+}
+footer .menu li:last-child{
+    padding-right: 0;
+}
+footer .masang{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
